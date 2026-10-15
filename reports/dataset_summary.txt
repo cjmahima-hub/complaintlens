@@ -1,0 +1,9 @@
+Total rows: 380,002
+Columns: complaint_id, date, label, split, text
+
+Per split:
+         rows  median_words  p95_words  max_words  pct_with_xxxx
+split                                                           
+test   100000         150.0      620.0       5939           84.9
+train  230002         160.0      665.0       6314           84.0
+val     50000         142.0      602.0       5910           86.3
