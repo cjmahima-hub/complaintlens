@@ -1,0 +1,56 @@
+Majority class (pre-2023 natural data): Credit reporting (48.3% of those narratives)
+
+SUMMARY
+                 baseline split  macro_f1  accuracy
+           Majority class   val    0.0848    0.6176
+           Majority class  test    0.0878    0.6533
+Length + XXXX counts only   val    0.1371    0.3869
+Length + XXXX counts only  test    0.1240    0.3481
+
+--- Majority class on val: per-class results ---
+                                    precision  recall  f1-score  support
+Checking or savings account             0.000     0.0     0.000     4116
+Credit card or prepaid card             0.000     0.0     0.000     4374
+Credit reporting                        0.618     1.0     0.764    30881
+Debt collection                         0.000     0.0     0.000     4841
+Money transfer or virtual currency      0.000     0.0     0.000     1241
+Mortgage                                0.000     0.0     0.000     1874
+Payday, title, or personal loan         0.000     0.0     0.000      639
+Student loan                            0.000     0.0     0.000      935
+Vehicle loan or lease                   0.000     0.0     0.000     1099
+
+--- Majority class on test: per-class results ---
+                                    precision  recall  f1-score  support
+Checking or savings account             0.000     0.0      0.00     6660
+Credit card or prepaid card             0.000     0.0      0.00     7831
+Credit reporting                        0.653     1.0      0.79    65328
+Debt collection                         0.000     0.0      0.00    10671
+Money transfer or virtual currency      0.000     0.0      0.00     2262
+Mortgage                                0.000     0.0      0.00     2782
+Payday, title, or personal loan         0.000     0.0      0.00     1131
+Student loan                            0.000     0.0      0.00     1739
+Vehicle loan or lease                   0.000     0.0      0.00     1596
+
+--- Length + XXXX counts only on val: per-class results ---
+                                    precision  recall  f1-score  support
+Checking or savings account             0.130   0.117     0.123     4116
+Credit card or prepaid card             0.142   0.188     0.162     4374
+Credit reporting                        0.816   0.513     0.630    30881
+Debt collection                         0.146   0.297     0.195     4841
+Money transfer or virtual currency      0.009   0.002     0.004     1241
+Mortgage                                0.069   0.400     0.118     1874
+Payday, title, or personal loan         0.000   0.000     0.000      639
+Student loan                            0.059   0.001     0.002      935
+Vehicle loan or lease                   0.000   0.000     0.000     1099
+
+--- Length + XXXX counts only on test: per-class results ---
+                                    precision  recall  f1-score  support
+Checking or savings account             0.112   0.120     0.116     6660
+Credit card or prepaid card             0.126   0.177     0.147     7831
+Credit reporting                        0.807   0.434     0.564    65328
+Debt collection                         0.148   0.289     0.196    10671
+Money transfer or virtual currency      0.020   0.006     0.009     2262
+Mortgage                                0.047   0.425     0.084     2782
+Payday, title, or personal loan         0.000   0.000     0.000     1131
+Student loan                            0.000   0.000     0.000     1739
+Vehicle loan or lease                   0.000   0.000     0.000     1596
