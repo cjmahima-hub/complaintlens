@@ -1,0 +1,169 @@
+Top terms per class: largest positive coefficients
+Model: TF-IDF (1-2 word n-grams, min_df=5, max 200,000 features, sublinear tf) + Logistic Regression (C=1.0), time split, as in Step 16
+Reloaded model on the test part: macro-F1 0.7446, accuracy 0.8498 (Step 17: 0.7446 / 0.8498)
+Predictions agree with Step 17 on 100.00% of test rows
+Coefficients are relative to the other classes; they show what the model associates with a class, not why a complaint belongs to it.
+
+Checking or savings account
+      13.98  bank
+       8.22  checking
+       8.11  account
+       7.38  deposit
+       7.33  chase
+       7.07  funds
+       6.78  banking
+       6.68  overdraft
+       6.26  branch
+       6.16  debit
+       5.99  bonus
+       5.92  savings
+       5.80  checking account
+       5.78  cd
+       5.74  citibank
+
+Credit card or prepaid card
+      21.33  card
+       7.51  discover
+       7.21  synchrony
+       7.17  cards
+       7.08  citi
+       7.03  credit card
+       6.98  amex
+       6.49  capital one
+       6.48  credit
+       6.41  barclays
+       6.00  comenity
+       5.91  rewards
+       5.55  mastercard
+       5.53  chase
+       5.52  netspend
+
+Credit reporting
+      16.66  equifax
+      14.89  experian
+      12.94  transunion
+       8.14  credit
+       7.04  report
+       7.04  inquiries
+       6.57  reporting
+       5.60  xxxx xxxx
+       5.45  inquiry
+       4.93  mortgage
+       4.57  my credit
+       4.47  my report
+       4.23  trans union
+       4.23  inquires
+       4.15  dispute
+
+Debt collection
+      15.27  debt
+      11.38  collection
+       8.22  collections
+       5.78  owe
+       5.40  owed
+       5.18  medical
+       5.10  recovery
+       4.67  collect
+       4.63  bill
+       4.35  credit
+       4.24  calls
+       4.14  portfolio
+       4.03  calling
+       3.93  midland
+       3.88  credit card
+
+Money transfer or virtual currency
+      16.22  paypal
+      13.97  coinbase
+      10.10  money
+       9.55  transfer
+       7.78  venmo
+       7.61  wire
+       6.93  transaction
+       5.93  funds
+       5.88  cashapp
+       5.76  moneygram
+       5.49  zelle
+       5.45  app
+       5.23  cash
+       5.10  western union
+       5.10  scam
+
+Mortgage
+      28.31  mortgage
+      12.33  escrow
+      10.57  home
+       9.80  modification
+       8.46  foreclosure
+       7.89  my mortgage
+       7.88  loan
+       7.53  heloc
+       7.28  property
+       7.11  appraisal
+       7.04  closing
+       6.72  servicing
+       6.35  house
+       6.27  loancare
+       6.27  refinance
+
+Payday, title, or personal loan
+      17.26  loan
+       7.78  personal loan
+       7.09  line of
+       6.84  title
+       6.67  affirm
+       6.43  finance
+       6.33  payday
+       6.31  of credit
+       6.28  title loan
+       6.11  lending
+       6.07  borrowed
+       5.14  interest
+       4.96  installment
+       4.94  onemain
+       4.84  loans
+
+Student loan
+      20.97  navient
+      13.91  student
+      12.68  loans
+      11.28  nelnet
+      11.14  loan
+       8.98  student loan
+       8.61  school
+       8.45  fedloan
+       7.49  aes
+       7.26  education
+       6.78  mohela
+       6.62  repayment
+       6.61  forbearance
+       6.01  payments
+       5.97  my loans
+
+Vehicle loan or lease
+      16.73  car
+      13.95  vehicle
+      10.79  auto
+       9.76  lease
+       9.65  santander
+       9.46  ally
+       8.19  loan
+       7.87  auto loan
+       7.78  finance
+       7.36  acceptance
+       7.25  bridgecrest
+       6.39  toyota
+       6.32  financial
+       6.21  gm
+       5.80  dealer
+
+Top-15 terms containing a redaction token, by class:
+Checking or savings account           0
+Credit card or prepaid card           0
+Credit reporting                      1
+Debt collection                       0
+Money transfer or virtual currency    0
+Mortgage                              0
+Payday, title, or personal loan       0
+Student loan                          0
+Vehicle loan or lease                 0
