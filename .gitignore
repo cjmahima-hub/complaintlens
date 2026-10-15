@@ -26,3 +26,5 @@ models/*
 .DS_Store
 Thumbs.db
 .vscode/
+# Build metadata
+*.egg-info/
