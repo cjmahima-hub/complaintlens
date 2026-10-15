@@ -1,0 +1,43 @@
+Redaction test: do XXXX tokens act as a shortcut? (tokens = runs of 2+ X, any case)
+Model: TF-IDF (1-2 word n-grams, min_df=5, max 200,000 features, sublinear tf) + Logistic Regression (C=1.0), time split, as in Step 16
+Fit time: TF-IDF 110 s, Logistic Regression 1614 s, iterations 163 (limit 300)
+
+% of narratives containing a redaction token, by split:
+split
+train    87.6
+val      88.4
+test     86.6
+
+% of test narratives containing a redaction token, by class:
+label
+Checking or savings account           87.8
+Credit card or prepaid card           84.5
+Credit reporting                      88.0
+Debt collection                       77.7
+Money transfer or virtual currency    90.1
+Mortgage                              91.9
+Payday, title, or personal loan       82.1
+Student loan                          88.5
+Vehicle loan or lease                 83.9
+
+Test results:
+                   model  test_macro_f1  test_accuracy
+ original text (Step 17)         0.7446         0.8498
+redaction tokens removed         0.7398         0.8428
+
+Same test set split by whether the original narrative had tokens:
+                        subset  rows  orig_macro_f1  clean_macro_f1  orig_accuracy  clean_accuracy
+   test narratives WITH tokens 86616         0.7541          0.7464         0.8606          0.8510
+test narratives WITHOUT tokens 13384         0.6763          0.6857         0.7794          0.7898
+
+Per-class F1 on the test part:
+                                    orig_f1  clean_f1  clean_minus_orig
+Checking or savings account           0.801     0.802             0.001
+Credit card or prepaid card           0.745     0.738            -0.007
+Credit reporting                      0.918     0.912            -0.006
+Debt collection                       0.689     0.676            -0.013
+Money transfer or virtual currency    0.690     0.687            -0.003
+Mortgage                              0.869     0.868            -0.001
+Payday, title, or personal loan       0.548     0.551             0.003
+Student loan                          0.830     0.823            -0.007
+Vehicle loan or lease                 0.611     0.601            -0.010
