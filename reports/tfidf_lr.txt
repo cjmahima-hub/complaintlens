@@ -1,0 +1,33 @@
+TF-IDF (1-2 word n-grams, min_df=5, max 200,000 features, sublinear tf) + Logistic Regression (C=1.0)
+Features: 200,000
+Fit time: TF-IDF 116 s, Logistic Regression 1029 s
+Iterations used: 208 (limit 300)
+
+SUMMARY
+split  macro_f1  accuracy
+  val    0.7577    0.8551
+ test    0.7446    0.8498
+
+--- per-class results on val ---
+                                    precision  recall  f1-score  support
+Checking or savings account             0.822   0.826     0.824     4116
+Credit card or prepaid card             0.736   0.786     0.760     4374
+Credit reporting                        0.960   0.887     0.922    30881
+Debt collection                         0.668   0.765     0.713     4841
+Money transfer or virtual currency      0.605   0.756     0.672     1241
+Mortgage                                0.852   0.930     0.889     1874
+Payday, title, or personal loan         0.488   0.620     0.546      639
+Student loan                            0.741   0.911     0.817      935
+Vehicle loan or lease                   0.577   0.815     0.676     1099
+
+--- per-class results on test ---
+                                    precision  recall  f1-score  support
+Checking or savings account             0.804   0.799     0.801     6660
+Credit card or prepaid card             0.732   0.759     0.745     7831
+Credit reporting                        0.952   0.886     0.918    65328
+Debt collection                         0.639   0.749     0.689    10671
+Money transfer or virtual currency      0.633   0.756     0.690     2262
+Mortgage                                0.825   0.918     0.869     2782
+Payday, title, or personal loan         0.486   0.630     0.548     1131
+Student loan                            0.757   0.919     0.830     1739
+Vehicle loan or lease                   0.496   0.796     0.611     1596
