@@ -1,0 +1,25 @@
+Per class (all splits together):
+                                      rows  median_words  p95_words  pct_with_xxxx  median_xxxx  mean_xxxx
+label                                                                                                     
+Checking or savings account          40504         172.0     679.00           83.5          5.0       9.99
+Credit card or prepaid card          42205         169.0     629.00           82.7          5.0       9.34
+Credit reporting                    126209         136.0     586.00           87.2         10.0      25.44
+Debt collection                      45512         119.0     529.00           78.3          4.0       9.60
+Money transfer or virtual currency   26245         156.0     632.80           87.7          5.0      11.06
+Mortgage                             34656         221.0     889.25           88.2          8.0      15.11
+Payday, title, or personal loan      16086         150.0     606.75           79.9          4.0       8.33
+Student loan                         25151         176.0     656.00           83.1          5.0       9.78
+Vehicle loan or lease                23434         175.0     708.00           83.5          6.0      10.77
+
+Percent of narratives containing XXXX, by class and split:
+split                               train   val  test
+label                                                
+Checking or savings account          83.9  78.6  84.8
+Credit card or prepaid card          83.3  81.3  81.4
+Credit reporting                     85.1  89.8  86.8
+Debt collection                      79.5  78.0  75.3
+Money transfer or virtual currency   87.9  86.8  87.0
+Mortgage                             88.3  86.0  89.2
+Payday, title, or personal loan      80.0  80.8  78.1
+Student loan                         83.0  82.5  84.6
+Vehicle loan or lease                83.8  80.8  80.7
