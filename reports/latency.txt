@@ -1,0 +1,14 @@
+Latency: TF-IDF + Logistic Regression, time split model (Step 21)
+Machine: Intel64 Family 6 Model 186 Stepping 2, GenuineIntel, 12 logical CPUs, Windows 11
+Python 3.14.7, scikit-learn 1.9.1
+Sample: 1000 random 2024 test narratives (seed 42), median length 146 words, 20 warm-up runs not timed
+Model load time: 1.42 s
+
+One complaint at a time, raw text to predicted class (milliseconds):
+                 version  median_ms  p95_ms  p99_ms  max_ms
+         prediction only       1.14    2.46    3.93    5.98
+prediction + top 5 words       1.61    3.34    5.79   10.92
+
+Batch of 1000: 0.48 s total, 0.48 ms per complaint (2,104 per second)
+One-at-a-time and batch predictions agree on all rows.
+Timings vary between runs and depend on the machine and narrative length.
