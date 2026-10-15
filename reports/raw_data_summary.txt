@@ -1,0 +1,52 @@
+File: datalumos_download.zip (1,037.2 MB)
+
+Columns (18):
+   1. Date received
+   2. Product
+   3. Sub-product
+   4. Issue
+   5. Sub-issue
+   6. Consumer complaint narrative
+   7. Company public response
+   8. Company
+   9. State
+  10. ZIP code
+  11. Tags
+  12. Consumer consent provided?
+  13. Submitted via
+  14. Date sent to company
+  15. Company response to consumer
+  16. Timely response?
+  17. Consumer disputed?
+  18. Complaint ID
+
+Rows in file: 7,765,380
+Rows with a narrative: 2,482,364 (32.0%)
+Date range, all rows: 2011-12-01 00:00:00 to 2025-02-09 00:00:00
+Latest date among rows WITH a narrative: 2025-01-28 00:00:00
+Raw date examples: ['2025-01-30', '2024-10-20', '2024-10-21'] (unparseable dates: 0)
+
+Product categories: 21
+                                                                              all_rows  with_narrative  share_of_narratives_%
+Product                                                                                                                      
+Credit reporting, credit repair services, or other personal consumer reports   2163864          807286                   32.5
+Credit reporting or other personal consumer reports                            3193003          731309                   29.5
+Debt collection                                                                 704396          302265                   12.2
+Mortgage                                                                        413824          125297                    5.0
+Checking or savings account                                                     266271          119336                    4.8
+Credit card or prepaid card                                                     206372          108669                    4.4
+Credit card                                                                     194954           66465                    2.7
+Student loan                                                                     99320           47881                    1.9
+Money transfer, virtual currency, or money service                              127294           46852                    1.9
+Vehicle loan or lease                                                            66277           35817                    1.4
+Credit reporting                                                                140429           31587                    1.3
+Payday loan, title loan, or personal loan                                        30641           17238                    0.7
+Bank account or service                                                          86205           14885                    0.6
+Consumer Loan                                                                    31574            9461                    0.4
+Payday loan, title loan, personal loan, or advance loan                          12469            6462                    0.3
+Prepaid card                                                                     12974            6301                    0.3
+Payday loan                                                                       5541            1746                    0.1
+Debt or credit management                                                         3542            1702                    0.1
+Money transfers                                                                   5354            1497                    0.1
+Other financial service                                                           1058             292                    0.0
+Virtual currency                                                                    18              16                    0.0
