@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data: large files and licensing; keep only the folder placeholders
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Trained models: too large for GitHub
+models/*
+!models/.gitkeep
+
+# Secrets
+.env
+*.key
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
