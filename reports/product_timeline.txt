@@ -1,0 +1,51 @@
+FIRST AND LAST DATE EACH PRODUCT LABEL APPEARS (rows with narratives)
+
+                                                                              first_date   last_date  narratives
+Product                                                                                                         
+Bank account or service                                                       2015-03-19  2017-04-22       14885
+Student loan                                                                  2015-03-19  2025-01-22       47881
+Consumer Loan                                                                 2015-03-19  2017-04-21        9461
+Credit card                                                                   2015-03-19  2025-01-27       66465
+Credit reporting                                                              2015-03-19  2017-04-22       31587
+Payday loan                                                                   2015-03-19  2017-04-21        1746
+Debt collection                                                               2015-03-19  2025-01-28      302265
+Mortgage                                                                      2015-03-19  2025-01-27      125297
+Money transfers                                                               2015-03-19  2017-04-21        1497
+Prepaid card                                                                  2015-03-23  2025-01-19        6301
+Other financial service                                                       2015-03-26  2017-04-20         292
+Virtual currency                                                              2015-04-06  2017-04-03          16
+Credit reporting, credit repair services, or other personal consumer reports  2017-04-24  2023-08-25      807286
+Payday loan, title loan, or personal loan                                     2017-04-24  2023-08-24       17238
+Credit card or prepaid card                                                   2017-04-24  2023-08-25      108669
+Checking or savings account                                                   2017-04-24  2025-01-27      119336
+Vehicle loan or lease                                                         2017-04-24  2025-01-27       35817
+Money transfer, virtual currency, or money service                            2017-04-24  2025-01-23       46852
+Debt or credit management                                                     2023-08-25  2025-01-20        1702
+Credit reporting or other personal consumer reports                           2023-08-25  2025-01-28      731309
+Payday loan, title loan, personal loan, or advance loan                       2023-08-25  2025-01-24        6462
+
+NARRATIVES PER YEAR AND PRODUCT
+
+year                                                                           2015   2016   2017   2018   2019   2020    2021    2022    2023    2024  2025
+Product                                                                                                                                                     
+Bank account or service                                                        4559   7757   2569      0      0      0       0       0       0       0     0
+Checking or savings account                                                       0      0   4743   6999   7351   9530   12401   18026   28021   28258  4007
+Consumer Loan                                                                  2971   4667   1823      0      0      0       0       0       0       0     0
+Credit card                                                                    6243   9433   3161      0      0      0       0       0   12908   34212   508
+Credit card or prepaid card                                                       0      0   7789  11854  12529  17103   16607   21502   21285       0     0
+Credit reporting                                                              10258  15081   6248      0      0      0       0       0       0       0     0
+Credit reporting or other personal consumer reports                               0      0      0      0      0      0       0       0  124064  603906  3339
+Credit reporting, credit repair services, or other personal consumer reports      0      0  36149  48980  58513  95935  109191  233810  224708       0     0
+Debt collection                                                               14559  18698  23561  26134  23962  25852   34495   31386   35622   67267   729
+Debt or credit management                                                         0      0      0      0      0      0       0       0     307    1358    37
+Money transfer, virtual currency, or money service                                0      0   1867   3241   2836   4827    7966    7893    8460    9555   207
+Money transfers                                                                 562    711    224      0      0      0       0       0       0       0     0
+Mortgage                                                                      12301  15769  13141  10270  10035  12468   14081   12286   12885   11810   251
+Other financial service                                                          87    139     66      0      0      0       0       0       0       0     0
+Payday loan                                                                     615    865    266      0      0      0       0       0       0       0     0
+Payday loan, title loan, or personal loan                                         0      0   1635   2396   2427   2352    2389    3212    2827       0     0
+Payday loan, title loan, personal loan, or advance loan                           0      0      0      0      0      0       0       0    1495    4921    46
+Prepaid card                                                                    772    492    186      0      0      0       0       0    1351    3459    41
+Student loan                                                                   1805   4178   9633   5288   4281   2466    2173    4256    6163    7622    16
+Vehicle loan or lease                                                             0      0   2047   3266   2929   3805    4286    4818    7366    7181   119
+Virtual currency                                                                  7      6      3      0      0      0       0       0       0       0     0
