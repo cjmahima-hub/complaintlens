@@ -1,0 +1,33 @@
+Seed: 42   Train cap per class-year: 5000
+Train dates: up to 2022-12-31
+Val dates:   2023-01-01 to 2023-12-31
+Test dates:  from 2024-01-01
+
+Rows: train 230,002, val 50,000, test 100,000
+
+Counts per class and split:
+split                                train    val    test
+label                                                    
+Checking or savings account          29728   4116    6660
+Credit card or prepaid card          30000   4374    7831
+Credit reporting                     30000  30881   65328
+Debt collection                      30000   4841   10671
+Money transfer or virtual currency   22742   1241    2262
+Mortgage                             30000   1874    2782
+Payday, title, or personal loan      14316    639    1131
+Student loan                         22477    935    1739
+Vehicle loan or lease                20739   1099    1596
+All                                 230002  50000  100000
+
+Class share within each split (%):
+split                               train   val  test
+label                                                
+Checking or savings account          12.9   8.2   6.7
+Credit card or prepaid card          13.0   8.7   7.8
+Credit reporting                     13.0  61.8  65.3
+Debt collection                      13.0   9.7  10.7
+Money transfer or virtual currency    9.9   2.5   2.3
+Mortgage                             13.0   3.7   2.8
+Payday, title, or personal loan       6.2   1.3   1.1
+Student loan                          9.8   1.9   1.7
+Vehicle loan or lease                 9.0   2.2   1.6
