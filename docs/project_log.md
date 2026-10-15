@@ -30,3 +30,11 @@ split, then add extensions.
 ## Next
 - Check DataLumos (CFPB Consumer Complaint Database project) and Kaggle.
 - Note: login needed?, file names and sizes, version dates, licence wording.
+
+
+## Update 14 Oct 2026: data source and label decisions
+- Source: DataLumos copy of the CFPB Consumer Complaint Database (complaints.csv.zip, 989.1 MB, file dated 02/11/2025). Licence: CC BY 4.0 per the DataLumos terms; cite the CFPB and DataLumos. The terms forbid re-identifying research subjects (people or organizations), so we do not use the Company column and never commit raw data.
+- Why not the live CFPB file: since 14 Aug 2026 it has no narrative column.
+- Snapshot: 7,765,380 rows, 2,482,364 with narratives, complaint dates 2011-12-01 to 2025-02-09.
+- Product names changed on 2017-04-24 and 2023-08-25. We use 2017-04-24 to 2024-12-31 and merge renamed labels into 9 classes (src/complaintlens/labels.py).
+- Credit reporting is about 47% of narratives in 2019, 69% in 2022, 77% in 2024, so class balance drifts over time.
