@@ -110,7 +110,7 @@ if st.button("Classify", type="primary"):
             st.dataframe(
                 table,
                 hide_index=True,
-                use_container_width=True,
+                width="stretch",
                 column_config={
                     "probability (%)": st.column_config.ProgressColumn(
                         "probability (%)",
@@ -127,7 +127,7 @@ if st.button("Classify", type="primary"):
                 st.dataframe(
                     pd.DataFrame(words, columns=["word or phrase", "push"]),
                     hide_index=True,
-                    use_container_width=True,
+                    width="stretch",
                 )
 
 with st.expander("About this model"):
