@@ -1,0 +1,36 @@
+Near-duplicate check: 2024 test sample vs the full training split
+Test sample: 20,000 narratives (seed 42); training narratives compared against: 230,002
+Vectors: TF-IDF, single words, words in more than 5% of narratives dropped, cosine similarity
+Sampled narratives with no usable words after filtering (similarity 0, cannot be judged): 29
+
+Highest similarity to any training narrative, percentiles of the sample:
+0.50    0.408
+0.75    0.573
+0.90    0.808
+0.95    0.933
+0.99    1.000
+
+Share of the sample with a twin at each threshold:
+ similarity_at_least  narratives  pct_of_sample  twin_has_same_label_pct  model_correct_pct
+                0.95         783            3.9                     84.7               93.7
+                0.90        1319            6.6                     87.2               94.8
+                0.80        2056           10.3                     83.8               94.1
+
+Model scores on the same sample, with and without twins:
+                       subset  rows  macro_f1  accuracy
+  all sampled test narratives 20000    0.7405    0.8529
+twins at 0.90 or more removed 18681    0.7416    0.8462
+twins at 0.80 or more removed 17944    0.7422    0.8428
+
+Share of each class with a twin at 0.90 or more:
+                                     rows  with_twin  pct_with_twin
+label                                                              
+Checking or savings account          1308          5            0.4
+Credit card or prepaid card          1542         12            0.8
+Credit reporting                    13194       1249            9.5
+Debt collection                      2103         44            2.1
+Money transfer or virtual currency    445          3            0.7
+Mortgage                              542          1            0.2
+Payday, title, or personal loan       197          1            0.5
+Student loan                          360          0            0.0
+Vehicle loan or lease                 309          4            1.3
