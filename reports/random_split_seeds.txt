@@ -1,0 +1,7 @@
+Random split repeated with other seeds (same design as Step 19)
+ seed  test_macro_f1  test_accuracy  iterations
+    1         0.7371         0.8417         194
+    2         0.7377         0.8416         189
+
+Seed 42 (Step 19): macro-F1 0.7400, accuracy 0.8433
+Time split (Step 17): macro-F1 0.7446, accuracy 0.8498

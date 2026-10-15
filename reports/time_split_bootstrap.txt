@@ -1,0 +1,4 @@
+Bootstrap of the time-split test score (100,000 rows, 1000 resamples, seed 42)
+macro-F1: 0.7446  (95% range 0.7400 to 0.7489)
+accuracy: 0.8498  (95% range 0.8476 to 0.8522)
+Random split (seed 42) scored macro-F1 0.7400, accuracy 0.8433.

@@ -1,0 +1,40 @@
+Random split vs time split: same 380,002 narratives, same rows per class in each part (seed 42)
+Model: TF-IDF (1-2 word n-grams, min_df=5, max 200,000 features, sublinear tf) + Logistic Regression (C=1.0), as in Step 16
+Random split fit time: TF-IDF 146 s, Logistic Regression 710 s, iterations 188 (limit 300)
+
+Which time period do the random parts come from? (% of each part)
+              from 2017-2022  from 2023  from 2024
+random train            72.5        9.4       18.0
+random val              43.7       18.3       38.1
+random test             41.3       19.2       39.5
+
+Test results, time split vs random split:
+                         split_method  test_macro_f1  test_accuracy
+      time (train 2017-22, test 2024)         0.7446         0.8498
+random (same rows, same class counts)         0.7400         0.8433
+
+Random split, validation: macro-F1 0.7565, accuracy 0.8439
+
+Per-class F1 on the test part:
+                                    time_split_f1  random_split_f1  random_minus_time
+Checking or savings account                 0.801            0.822              0.021
+Credit card or prepaid card                 0.745            0.758              0.013
+Credit reporting                            0.918            0.907             -0.011
+Debt collection                             0.689            0.720              0.031
+Money transfer or virtual currency          0.690            0.739              0.049
+Mortgage                                    0.869            0.821             -0.048
+Payday, title, or personal loan             0.548            0.529             -0.019
+Student loan                                0.830            0.783             -0.047
+Vehicle loan or lease                       0.611            0.580             -0.031
+
+Per-class results, random split, test part:
+                                    precision  recall  f1-score  support
+Checking or savings account             0.805   0.841     0.822     6660
+Credit card or prepaid card             0.690   0.840     0.758     7831
+Credit reporting                        0.978   0.846     0.907    65328
+Debt collection                         0.639   0.825     0.720    10671
+Money transfer or virtual currency      0.687   0.799     0.739     2262
+Mortgage                                0.726   0.944     0.821     2782
+Payday, title, or personal loan         0.448   0.645     0.529     1131
+Student loan                            0.679   0.925     0.783     1739
+Vehicle loan or lease                   0.443   0.842     0.580     1596
