@@ -89,8 +89,9 @@ Tested with Streamlit 1.66.0.
 
 The data and trained models are **not** in this repository.
 
-1. Create a virtual environment and install the requirements:
-   `pip install -r requirements.txt`
+1. Create a virtual environment, then install the requirements and the package:
+   `pip install -r requirements.txt`, then `pip install -e .`
+   (the scripts import the `complaintlens` package from `src/`)
 2. Download the CFPB complaint data into `data/raw/` (not included; the
    narratives are public but large).
 3. Build the dataset: `python scripts\build_dataset.py`
