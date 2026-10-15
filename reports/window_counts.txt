@@ -1,0 +1,22 @@
+Window: 2017-04-24 to 2024-12-31
+Rows read:                         7,765,380
+With narrative:                    2,482,364
+...and inside the date window:     2,309,053
+...and with a mapped label:        2,307,388
+After exact-duplicate removal:     1,631,959
+Duplicates removed:                675,429
+Duplicate texts with conflicting labels: 2,038
+
+Unique narratives per class and year:
+year                                 2017    2018    2019    2020    2021    2022    2023    2024      All
+label                                                                                                     
+Checking or savings account          4728    6989    7335    9507   12384   18005   27983   28199   115130
+Credit card or prepaid card          7748   11763   12282   16597   16138   21364   29041   33614   148547
+Credit reporting                    31493   40419   45822   64162   76064  158995  208324  282495   907774
+Debt collection                     16217   24984   22459   23854   31408   29047   33218   45838   227025
+Money transfer or virtual currency   1867    3241    2821    4813    7698    7875    8430    9535    46280
+Mortgage                             8408   10257   10014   12414   14021   12270   12864   11791    92039
+Payday, title, or personal loan      1633    2387    2395    2329    2375    3197    4299    4875    23490
+Student loan                         4466    5276    4249    2406    2106    4250    6149    7610    36512
+Vehicle loan or lease                2038    3234    2879    3694    4126    4768    7318    7105    35162
+All                                 78598  108550  110256  139776  166320  259771  337626  431062  1631959
