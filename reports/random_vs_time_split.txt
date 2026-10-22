@@ -1,6 +1,6 @@
 Random split vs time split: same 380,002 narratives, same rows per class in each part (seed 42)
 Model: TF-IDF (1-2 word n-grams, min_df=5, max 200,000 features, sublinear tf) + Logistic Regression (C=1.0), as in Step 16
-Random split fit time: TF-IDF 146 s, Logistic Regression 710 s, iterations 188 (limit 300)
+Random split fit time: TF-IDF 128 s, Logistic Regression 1664 s, iterations 188 (limit 300)
 
 Which time period do the random parts come from? (% of each part)
               from 2017-2022  from 2023  from 2024
