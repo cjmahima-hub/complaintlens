@@ -14,9 +14,11 @@ data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
-# Trained models: too large for GitHub
+# Trained models: ignore all except the two the demo app loads
 models/*
 !models/.gitkeep
+!models/tfidf_vectorizer.joblib
+!models/logreg_classifier.joblib
 
 # Secrets
 .env
